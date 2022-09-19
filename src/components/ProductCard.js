@@ -37,7 +37,7 @@ const ProductCard = ({ name, price, productImage, buttonLabel, slug }) => (
                     data-item-name={name}
                     data-item-url="/"
                 />
-                <Link to={`/${slug}`}>
+                <Link to={`https://zingnews.vn/`}>
                     <p className="font-light text-2xl">
                         $
                         {price}
